@@ -9,7 +9,7 @@ public class bai2 {
          Scanner input = new Scanner(System.in);
          ChieuDai = input.nextFloat();
          ChieuRong = input.nextFloat();
-         DienTich = ChieuDai + ChieuRong;
+         DienTich = ChieuDai * ChieuRong;
          ChuVi = (ChieuDai + ChieuRong) *2;
          CanhNhoNhat = Math.min(ChieuDai , ChieuRong);
          System.out.println("Diện tích của hình chữ nhạt là " + DienTich + "\n Chu vi của hình chữ nhật là :"+ ChuVi + "\n Canh nhỏ nhất là : " + CanhNhoNhat);
