@@ -4,22 +4,26 @@ import java.util.Scanner;
 
 public class Emloyee {
 
-    String[] Name = new String[100];
+    String Name;
     float Salary;
-    Emloyee(){}
-    void getName(){
-        System.out.print("Nhập tên của nhân viên : ");
-        Scanner input = new Scanner(System.in);
-        Name[1] = input.nextLine(); 
+    int soLuongNhanVien ;
+    Emloyee(){
+        
+    }
+    void getName(){        
+            System.out.print("Nhập tên của nhân viên : ");
+            Scanner input = new Scanner(System.in);
+            Name = input.nextLine(); 
     }
     void getSalary(){
-        System.out.print("Nhập lương của nhân viên : ");
-        Scanner input = new Scanner(System.in);
-        Salary = input.nextFloat();
+            System.out.print("Nhập lương của nhân viên : ");
+            Scanner input = new Scanner(System.in);
+            Salary = input.nextFloat();
+        
     }
     void printInfomationEmployee(){
-        System.out.println("Tên nhân viên là : " + Name[1]);
-        System.out.println("Lương nhân viên là : " + Salary);
+       
+            System.out.println("Tên nhân viên là : " + Name);
+            System.out.println("Lương nhân viên là : " + Salary);
     }
-
 }
