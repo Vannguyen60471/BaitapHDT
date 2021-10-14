@@ -4,10 +4,10 @@
 */
 package com.vannht2008110055.lab5;
 
-public class cow {
+public class Cow {
     float weight;
     int age;
-    cow(int tuoi , float canNang){
+    Cow(int tuoi , float canNang){
         age = tuoi;
         weight = canNang;
     }

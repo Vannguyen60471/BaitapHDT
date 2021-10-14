@@ -5,7 +5,7 @@
 package com.vannht2008110055.lab5;
 import java.util.Scanner;
 
-public class bookShelves {
+public class BookShelves {
     double giaBan;
     String nhaXuatBan;
     String tenSach;
@@ -13,7 +13,7 @@ public class bookShelves {
     int soLuong;
     String loaiSach;
     Scanner input = new Scanner(System.in);
-    bookShelves(){
+    BookShelves(){
         
     }
     void nhapThongTinSach(){

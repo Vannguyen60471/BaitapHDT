@@ -4,7 +4,7 @@
 */
 package com.vannht2008110055.lab5;
 import java.util.Scanner;
-public class employee {
+public class Employee {
     String tenNhanVien;
     float luong;
     String boPhanLamViec;

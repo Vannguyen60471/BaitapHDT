@@ -4,11 +4,11 @@
 */
 package com.vannht2008110055.lab5;
 
-public class account {
+public class Account {
     int accout_number ;
     int accout_balance ;
     String name_customer;
-    account(String t,int a , int b){
+    Account(String t,int a , int b){
         accout_number = a;
         accout_balance = b;
         name_customer = t;
