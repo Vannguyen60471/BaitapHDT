@@ -9,10 +9,10 @@ public class AccoutTestDrive {
         Accout accout;
         
         
-        accout = new Accout(123, 200);
+        accout = new Accout();
         accout.Show_Balance();
         accout.deposit(200);
-        accout.showData();
+        accout.ShowData();
         accout.withdraw(110);
         accout.ShowData();
     }

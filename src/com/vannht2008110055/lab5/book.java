@@ -5,7 +5,4 @@ public class book {
     public void nhapThongTinSach() {
     }
 
-    public void xuatThongTinSach() {
-    }
-
 }

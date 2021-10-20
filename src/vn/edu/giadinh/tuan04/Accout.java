@@ -24,6 +24,8 @@ public class Accout {
 
         accout_balance -= ammout;
         }
+    public void Show_Balance() {
+    }
       
         
     }

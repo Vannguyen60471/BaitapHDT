@@ -5,7 +5,4 @@ public class nhanVien {
     public void nhapThongTinNhanVien() {
     }
 
-    public void xuatThongTinNhanVien() {
-    }
-
 }

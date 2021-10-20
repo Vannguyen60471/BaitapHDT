@@ -8,11 +8,11 @@ public class TestDrive {
     public static void main(String[] args) {
         book sach = new book();
         sach.nhapThongTinSach();
-        sach.xuatThongTinSach();
+        sach.nhapThongTinSach();
         System.out.println("==========================================================");
         nhanVien nhanVien1 = new nhanVien();
         nhanVien1.nhapThongTinNhanVien();
-        nhanVien1.xuatThongTinNhanVien();
+        nhanVien1.nhapThongTinNhanVien();
         System.out.println("==========================================================");
         Car xeMoi = new Car();
         xeMoi.inThongTinXe();
