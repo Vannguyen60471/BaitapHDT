@@ -4,7 +4,7 @@
 */
 package com.vannht2008110055.lab7.cayAnimal;
 
-public class Tiger extends Animal {
+public class Tiger extends Wild {
     protected String food = " Thịt "; 
     protected void eat(){
         System.out.println("Ngoạm Ngoạm : " + food);
