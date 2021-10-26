@@ -12,11 +12,11 @@ public class DogTestDrive {
         dog.type= type;
         System.out.println("Loại: "+dog.type);
         System.out.println("Tuổi: "+dog.age);
-        Dog dog1 = new Dog("Becgie", 3);
+        Dog dog1 = new Dog();
         System.out.println("Loại: "+dog1.type);
         System.out.println("Tuổi: "+dog.age);
         dog1.bark();
-        dog1.bark(5);
+        dog1.bark();
     
 }
 }
