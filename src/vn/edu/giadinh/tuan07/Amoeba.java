@@ -28,6 +28,6 @@ public class Amoeba {
     }
     void playSound(){
         System.out.println("phát ra file âm thanh có tên "+sound);
-    }
-    
+     
+    } 
 }
