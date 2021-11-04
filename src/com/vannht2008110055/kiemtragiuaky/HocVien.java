@@ -45,4 +45,9 @@ public class HocVien extends Nguoi {
         System.out.println("Điểm môn 2 : "+diemMonHoc2);
         System.out.println("Điểm TB    : "+(diemMonHoc1+diemMonHoc2)/2);
     }
+    public String toString(){
+        String s ; 
+        s = "Tên học viên : "+getHoTen() + "\n" +"Địa chỉ : "+getDiaChi() +"\nĐiểm môn học 1 : " + getDiemMonhoc1() + "\n" + "Điểm môn học 2 : " + getDiemMonhoc2() + "\n" + "Điểm trung bình : " + diemTB()+"\nSố lượng học viên : " + getSoLuongHv();
+        return s; 
+    }
 }

@@ -28,13 +28,9 @@ public class NhanVien extends Nguoi {
     }
 
     
-    public String toString() {
-        
-        return super.toString();
-    }
-
-    protected void xuat(){
-        System.out.println("THÔNG TIN NHÂN VIÊN");
-        System.out.println("Số lương Nhân Viên : "+(1500000*hesoLuong));
+    public String toString(){
+        String s ; 
+        s = "\nTên nhân viên : "+getHoTen() + "\n" +"Địa chỉ : "+getDiaChi() +"\nHệ số lương nhân viên : " + getHeSoluong() + "\n" +"Lương nhân viên : " + tinhLuong();
+        return s; 
     }
 }
