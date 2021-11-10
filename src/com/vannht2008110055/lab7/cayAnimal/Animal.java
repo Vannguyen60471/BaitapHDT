@@ -18,5 +18,8 @@ public class Animal {
     protected void roam(){
         System.out.println("chạy loanh quanh");
     }
+    protected void sleep(){
+        System.out.println("khò khò");
+    }
     
 }
